@@ -1,40 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Password Manager Hackathon Project
 
-## Getting Started
+## Introduction
+This README provides an overview of our team's project developed during the Bell and Hackworks hackathon. Our goal was to create an innovative solution to safeguard sensitive data from cyber-attacks and ensure data privacy.
 
-First, run the development server:
+## Project Overview
+- **Challenge**: Develop an innovative solution to safeguard sensitive data from cyber-attacks and ensure data privacy.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Accessing the App
+You can access our password manager app through the following URL: [https://cyberly.vercel.app/](https://cyberly.vercel.app/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Cloning the repository
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Prerequisites
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Before you begin, ensure you have the following prerequisites installed on your computer:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. **Git**: You can download and install Git from [https://git-scm.com/downloads](https://git-scm.com/downloads).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Node.js**: You can download and install Node.js from [https://nodejs.org/](https://nodejs.org/).
 
-## Learn More
+### Instructions
 
-To learn more about Next.js, take a look at the following resources:
+1. **Open Terminal or Command Prompt**:
+   - If you are using macOS or Linux, open the Terminal.
+   - If you are using Windows, open the Command Prompt or Git Bash.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Navigate to the Directory**:
+   - Use the `cd` command to navigate to the directory where you want to clone the project. For example, to navigate to your desktop, you can use:
+     ```
+     cd Desktop
+     ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Clone the Project**:
+   - Clone the project repository by running the following command. Replace `[repository_url]` with the URL of your GitHub repository:
+     ```
+     git clone [repository_url]
+     ```
+     Example:
+     ```
+     git clone https://github.com/your-username/your-repo.git
+     ```
 
-## Deploy on Vercel
+4. **Navigate into the Project Directory**:
+   - Once the project is cloned, navigate into the project directory using the `cd` command:
+     ```
+     cd your-repo
+     ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. **Install Dependencies**:
+   - Install project dependencies by running:
+     ```
+     npm install
+     ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+6. **Start the Development Server**:
+   - Start the Next.js development server with the following command:
+     ```
+     npm run dev
+     ```
+
+7. **Access the App**:
+   - Your Next.js app should now be running locally. Open a web browser and go to [http://localhost:3000](http://localhost:3000) to access your app.
+
+- **Team**: Los Chicos de La Computacion
+- Danilo Nakai
+- Armand Amores
+- Parishrut Sohum
+- Ayomide Ade-Esan
+
+- **Development stack**: We chose to develop our solution using Next.js, a choice rooted in both technical excellence and security consciousness.
+
+## Project Highlights
+- **Password Manager**: Our project focused on creating a password manager using Next.js, which added an exciting layer of challenge to our project.
+
+- **Awareness Campaign**: In addition to building a password manager, we aimed to raise awareness about the importance of strong password practices through social media. We wanted to make cybersecurity relatable and engaging for all users.
+
+- **Security Benefits of Next.js**: Next.js was selected for its inherent security benefits, including:
+  - High-level protection through the absence of direct links to databases and user data.
+  - Utilization of server-side rendering (SSR) for enhanced security.
+  - Enforcement of industry best practices in data handling to fortify overall security.
+
+## Future Development
+- While we couldn't implement all the planned features within the hackathon's time constraints, our team is motivated to add these features in the future.
+
+## Conclusion
+Our participation in the hackathon was not just a technical challenge but a mission to enhance digital security awareness for all. We are committed to ensuring that every individual understands the paramount importance of robust password management and data privacy in an increasingly interconnected world.
