@@ -59,15 +59,13 @@ Before you begin, ensure you have the following prerequisites installed on your 
    - The project should now be running locally. Open a web browser and go to [http://localhost:3000](http://localhost:3000) to access your app.
 
 ## Project Overview
-
-###Team
 Team name: Los Chicos de La Computacion
 - Danilo Nakai
 - Armand Amores
 - Parishrut Sohum
 - Ayomide Ade-Esan
 
-###Development stack
+Development stack:
 We chose to develop our solution using Next.js, a choice rooted in both technical excellence and security consciousness.
 
 ## Project Highlights
