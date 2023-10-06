@@ -3,7 +3,7 @@
 ## Introduction
 This README provides an overview of our team's project developed during the Bell and Hackworks hackathon. Our goal was to create an innovative solution to safeguard sensitive data from cyber-attacks and ensure data privacy.
 
-## Project Overview
+## The challenge
 - **Challenge**: Develop an innovative solution to safeguard sensitive data from cyber-attacks and ensure data privacy.
 
 ## Accessing the App
@@ -32,19 +32,15 @@ Before you begin, ensure you have the following prerequisites installed on your 
      ```
 
 3. **Clone the Project**:
-   - Clone the project repository by running the following command. Replace `[repository_url]` with the URL of your GitHub repository:
+   - Clone the project repository by running the following command.
      ```
-     git clone [repository_url]
-     ```
-     Example:
-     ```
-     git clone https://github.com/your-username/your-repo.git
+     git clone https://github.com/danilonakai/cyberly.git
      ```
 
 4. **Navigate into the Project Directory**:
    - Once the project is cloned, navigate into the project directory using the `cd` command:
      ```
-     cd your-repo
+     cd cyberly
      ```
 
 5. **Install Dependencies**:
@@ -60,15 +56,19 @@ Before you begin, ensure you have the following prerequisites installed on your 
      ```
 
 7. **Access the App**:
-   - Your Next.js app should now be running locally. Open a web browser and go to [http://localhost:3000](http://localhost:3000) to access your app.
+   - The project should now be running locally. Open a web browser and go to [http://localhost:3000](http://localhost:3000) to access your app.
 
-- **Team**: Los Chicos de La Computacion
+## Project Overview
+
+###Team
+Team name: Los Chicos de La Computacion
 - Danilo Nakai
 - Armand Amores
 - Parishrut Sohum
 - Ayomide Ade-Esan
 
-- **Development stack**: We chose to develop our solution using Next.js, a choice rooted in both technical excellence and security consciousness.
+###Development stack
+We chose to develop our solution using Next.js, a choice rooted in both technical excellence and security consciousness.
 
 ## Project Highlights
 - **Password Manager**: Our project focused on creating a password manager using Next.js, which added an exciting layer of challenge to our project.
