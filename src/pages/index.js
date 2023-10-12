@@ -48,7 +48,7 @@ export default function Home() {
 	}
 
 	async function createCategory() {
-		let res = await fetch("https://cyberly.vercel.app/api/categories/create", {
+		let res = await fetch("/api/categories/create", {
 			method: "POST",
 			body: JSON.stringify({
 				name: document.querySelector("#new-category-name").value,
@@ -67,7 +67,7 @@ export default function Home() {
 
 	async function getCategories() {
 		let data = [];
-		let res = await fetch("https://cyberly.vercel.app/api/categories/read", {
+		let res = await fetch("/api/categories/read", {
 			method: "GET"
 		});
 		res = await res.json();
@@ -107,7 +107,7 @@ export default function Home() {
 	}
 
 	async function createCredential() {
-		let res = await fetch("https://cyberly.vercel.app/api/credentials/create", {
+		let res = await fetch("/api/credentials/create", {
 			method: "POST",
 			body: JSON.stringify({
 				title: document.querySelector("#new-credential-title").value,
@@ -137,7 +137,7 @@ export default function Home() {
 			owner_id: userID
 		}).replaceAll('{','').replaceAll('}','').replaceAll(':','=').replaceAll('","','&').replaceAll('"','');
 
-		let res = await fetch("https://cyberly.vercel.app/api/credentials/read?"+params, {
+		let res = await fetch("/api/credentials/read?"+params, {
 			method: "GET"
 		});
 		res = await res.json();
@@ -191,7 +191,7 @@ export default function Home() {
 	}
 
 	async function deleteCredential(id){
-		let res = await fetch("https://cyberly.vercel.app/api/credentials/delete?id="+id, {
+		let res = await fetch("/api/credentials/delete?id="+id, {
 			method: "DELETE"
 		});
 		res = await res.json();
