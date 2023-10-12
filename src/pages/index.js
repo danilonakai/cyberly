@@ -56,8 +56,7 @@ export default function Home() {
 			}),
 		});
 		res = await res.json();
-		console.log(res);
-
+		
 		if (res.acknowledged == true) {
 			hidePopup();
 			clearPopupInputs();
@@ -120,7 +119,6 @@ export default function Home() {
 			}),
 		});
 		res = await res.json();
-		console.log(res);
 
 		if (res.acknowledged == true) {
 			hidePopup();
@@ -143,8 +141,6 @@ export default function Home() {
 		res = await res.json();
 
 		res.forEach(item => {
-			console.log(item);
-
 			data.push(
 				<li onClick={(event)=> selectCredential(
 					event,
@@ -210,8 +206,6 @@ export default function Home() {
 		});
 
 		getCredentials(selectedCategory.id);
-
-		console.log(res);
 	}
 
 	return (
